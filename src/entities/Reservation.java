@@ -40,7 +40,7 @@ public class Reservation {
 	}
 
 	public long durantion() {
-		long dif = checkOut.getTime() - checkOut.getTime();
+		long dif = checkOut.getTime() - checkIn.getTime();
 		return TimeUnit.DAYS.convert(dif, TimeUnit.MILLISECONDS);
 			
 	}
