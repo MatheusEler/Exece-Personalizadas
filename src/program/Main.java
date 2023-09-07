@@ -57,7 +57,7 @@ Reservation: Room 8021, check-in: 24/09/2019, check-out: 29/09/2019, 5 nights8*/
 			reservation.updates(checkIn, checkOut);
 			System.out.println(reservation);
 		}
-		
+		//ok
 		}
 	}
 
